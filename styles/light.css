@@ -5,7 +5,7 @@
 */
 
 :root.theme-light {
-  --main-bg-color: #ffc2e6;
+  --main-bg-color: #fff1f7;
   --main-bg-image: url("../images/cover-image-light.png");
   --heading-title: #ffc2e6;
   --accent-color: #ff8dcb;
@@ -23,7 +23,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-bg-color: #ffc2e6;
+    --main-bg-color: #fff1f7;
     --main-bg-image: url("../images/cover-image-light.png");
     --heading-title: #ffc2e6;
     --accent-color: #ff8dcb;
