@@ -20,8 +20,8 @@
   align-items: center;
   padding: 10px;
   padding-bottom: 0px;
-  block-size: 100svh;
-  min-block-size: 668px;
+  min-block-size: 100vh;
+  /* min-block-size: 668px; */
   margin-block-end: 40px;
 }
 
@@ -87,7 +87,7 @@
 .header__theme-menu-button {
   background-color: transparent;
   border: none;
-  color: var(--accent-color, #ff0070);
+  color: var(--menu-color, #ff0070);
   font-family: var(--main-font-family, "IBM Plex Mono", monospace);
   font-size: var(--main-font-size, 18px);
   appearance: none;
@@ -239,8 +239,9 @@
   display: grid;
   align-items: center;
   justify-items: center;
-  block-size: 100vh;
-  min-block-size: 668px;
+  /* block-size: 100vh;
+  min-block-size: 668px; */
+  min-block-size: 100vh;
 }
 
 .footer__title {
