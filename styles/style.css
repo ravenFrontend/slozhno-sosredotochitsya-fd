@@ -157,6 +157,7 @@
 
 .section {
   display: grid;
+  grid-template-columns: 1fr;
   gap: 20px;
 }
 
@@ -307,7 +308,7 @@
     padding: 0px 20px;
   }
 
-  .section {
+  .section .section__why {
     grid-template-columns: 236px 1fr;
   }
 
@@ -375,8 +376,13 @@
   .header__theme-menu-list {
     flex-direction: row;
   }
+
   .section {
     grid-template-columns: 315px 1fr;
+  }
+
+  .section__what {
+    grid-template-columns: 1fr;
   }
 
   .section__what .section__article-list {
