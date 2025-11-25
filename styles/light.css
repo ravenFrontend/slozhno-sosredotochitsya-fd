@@ -15,6 +15,7 @@
   --description-text: #353430;
   --section-title: #353430;
   --menu-color: #353430;
+  --menu-color-hover: rgba(50, 49, 45, 0.4);
 }
 
 .theme-light .header__decorated-el {
@@ -33,6 +34,7 @@
     --description-text: #353430;
     --section-title: #353430;
     --menu-color: #353430;
+    --menu-color-hover: rgba(50, 49, 45, 0.4);
   }
 
   .header__decorated-el {

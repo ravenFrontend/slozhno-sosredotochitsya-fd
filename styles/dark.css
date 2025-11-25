@@ -15,4 +15,9 @@
   --description-text: #f1b2ce;
   --section-title: #ff0070;
   --menu-color: #ff0070;
+  --menu-color-hover: rgba(255, 0, 112, 0.4);
+}
+
+.theme-dark .header__decorated-el {
+  display: flex;
 }

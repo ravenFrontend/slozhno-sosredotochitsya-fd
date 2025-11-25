@@ -99,7 +99,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--menu-color, #ff0070);
+  outline: 1px solid var(--menu-color-hover, rgba(255, 0, 112, 0.4));
   transition: outline 0, 4s ease-in;
 }
 
@@ -262,7 +262,7 @@
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   line-height: 82.5%;
   color: var(--heading-title, #db00ff);
-  text-shadow: 4px 4px 0px var(--text-shadow, #ff0070);
+  text-shadow: 2px 2px 0px var(--text-shadow, #ff0070);
 }
 
 /*====================================
